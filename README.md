@@ -85,3 +85,23 @@ Una vez terminada la prueba, dejar en la base de datos solo el usuario administr
 en un repositorio Git público y enviar URL, como también enviar prueba comprimida (base de
 datos, frontend y backend).
 
+<p>Este test se realizó con Javascript. En el backend, de acuerdo a los requisitos utilizamos nodejs expressjs para el servidor y mySql para la Base de Datos</p>
+
+##### <li>Para utilizar esta aplicación, debes clonar este repositorio y tener instalado en tu ambiente todas la dependecias utilizadas, las cuales estan especificadas en el archivo package.json</li>
+
+##### <li>Tambien debes tener instalado en tu sistema Mysql version 5.7 o superior</li>
+
+##### <li>Ejecutar los comandos de Mysql para crear la Base de Datos, los cuales estan en la Carpeta database, archivo db.sql</li>
+
+##### <li><p>Para correr el servidor bastara con ejecutar el siguiente comando en tu terminal: npm run dev</li>
+
+##### <li><p> Tambien utilizamos Bootstrap 5.0.2 para estilizar las vistas y handlebars un paquete npm para generar las vistas html de manera sencilla</li>
+
+#### DEMO
+
+<img src='./images/fs-demo1.png'>Iniciando el Servidor</img>
+<br>
+<img src='./images/fs-demo2.png'>Pagina de Inicio</img>
+<br>
+<img src='./images/fs-demo3.png'>End point agregar usuarios</img>
+
